@@ -44,5 +44,5 @@ def matrix_update(matrix, row, column, new_value)
   # Return the updated matrix
 
 matrix[row][column]
-matrix.shift(new_value)
+matrix.unshift(new_value)
 end
